@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:id="@+id/txtTen"
+        android:textSize="25dp"
+        android:text="Thêm Khóa Học"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+    <EditText
+        android:id="@+id/edtTenkh"
+        android:textColorHint="#B68E8E"
+        android:textColor="#B68E8E"
+
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/txtTen"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edtpass"
+        android:hint="Tên Khóa Học"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/edtMota"
+        android:textColorHint="#B68E8E"
+        android:textColor="#B68E8E"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/edtTenkh"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edtpass"
+        android:hint="Mô tả"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+    <EditText
+        android:id="@+id/txttgbd"
+        android:textColorHint="#B68E8E"
+        android:textColor="#B68E8E"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/edtMota"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edtpass"
+        android:hint="Ngày Bắt Đầu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/edttgkt"
+        android:textColorHint="#B68E8E"
+        android:textColor="#B68E8E"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/txttgbd"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edtpass"
+        android:hint="Ngày Kết Thúc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/edtGV"
+        android:textColorHint="#B68E8E"
+        android:textColor="#B68E8E"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/edttgkt"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edtpass"
+        android:hint="Giảng Viên"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_below="@id/edtGV"
+        android:gravity="center"
+
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:textColor="#B68E8E"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btnThem"
+            android:text="Thêm"
+            android:textColor="#FFF"
+            android:background="#E4FA742B"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </Button>
+
+        <Button
+            android:id="@+id/btnHuy"
+            android:text="Hủy"
+            android:textColor="#FFF"
+            android:background="#FA742B"
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </Button>
+
+
+    </LinearLayout>
+
+</RelativeLayout>

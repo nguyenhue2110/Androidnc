@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    android:layout_marginTop="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_marginLeft="10dp"
+        android:id="@+id/imgnews"
+        android:src="@drawable/bookkh"
+        android:layout_width="60dp"
+        android:layout_height="70dp">
+
+    </ImageView>
+
+
+    <TextView
+        android:id="@+id/txttitle"
+        android:text="Tên"
+        android:textSize="18sp"
+        android:layout_toRightOf="@id/imgnews"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/txtdesc"
+        android:text="desc"
+        android:textSize="14sp"
+        android:layout_toRightOf="@id/imgnews"
+        android:layout_below="@id/txttitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/txttime"
+        android:text="time"
+        android:textSize="12sp"
+        android:layout_toRightOf="@id/imgnews"
+        android:layout_below="@id/txtdesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </TextView>
+</RelativeLayout>
+</androidx.cardview.widget.CardView>

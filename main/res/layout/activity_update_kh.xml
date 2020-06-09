@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/barkh"
+        android:layout_width="match_parent"
+        android:background="#B22962FF"
+        android:layout_height="50dp">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbook"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/imgbackkh"
+                    android:src="@drawable/backkh"
+                    android:layout_alignParentLeft="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:text="Update Course"
+                    android:textColor="#fff"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="5dp"
+                    android:textSize="25sp"
+                    android:layout_toRightOf="@id/imgbackkh"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            </RelativeLayout>
+        </androidx.appcompat.widget.Toolbar>
+
+
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <EditText
+        android:id="@+id/edtTenkh1u"
+        android:textColorHint="#B68E8E"
+        android:textColor="#B68E8E"
+
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/barkh"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edtpass"
+        android:hint="Tên Khóa Học"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/edtMota1u"
+        android:textColorHint="#B68E8E"
+        android:textColor="#B68E8E"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/edtTenkh1u"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edtpass"
+        android:hint="Mô tả"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+    <EditText
+        android:id="@+id/txttgbd1u"
+        android:textColorHint="#B68E8E"
+        android:textColor="#B68E8E"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/edtMota1u"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edtpass"
+        android:hint="Ngày Bắt Đầu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/edttgkt1u"
+        android:textColorHint="#B68E8E"
+        android:textColor="#B68E8E"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/txttgbd1u"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edtpass"
+        android:hint="Ngày Kết Thúc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/edtGV1u"
+        android:textColorHint="#B68E8E"
+        android:textColor="#B68E8E"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/edttgkt1u"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edtpass"
+        android:hint="Giảng Viên"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_below="@id/edtGV1u"
+        android:gravity="center"
+
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:textColor="#B68E8E"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btnThem1u"
+
+
+            android:background="@drawable/themkh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </Button>
+
+        <Button
+            android:id="@+id/btnHuy1u"
+
+            android:textColor="#FFF"
+            android:background="@drawable/huykh"
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </Button>
+
+
+    </LinearLayout>
+
+</RelativeLayout>

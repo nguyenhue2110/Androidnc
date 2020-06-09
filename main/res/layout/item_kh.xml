@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    android:id="@+id/card1"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:layout_marginTop="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_marginLeft="10dp"
+            android:id="@+id/imgkha"
+            android:src="@drawable/bookkh"
+            android:layout_width="60dp"
+            android:layout_height="70dp">
+
+        </ImageView>
+        <TextView
+            android:id="@+id/txtTenKH1a"
+            android:layout_width="wrap_content"
+            android:layout_toRightOf="@id/imgkha"
+            android:text="lap trinh di dong"
+            android:textColor="#585050"
+            android:textStyle="bold"
+            android:layout_marginLeft="20dp"
+            android:textSize="20dp"
+            android:layout_height="wrap_content">
+
+        </TextView>
+        <TextView
+            android:id="@+id/txtMotaa"
+            android:layout_width="wrap_content"
+            android:layout_toRightOf="@id/imgkha"
+            android:layout_below="@id/txtTenKH1a"
+            android:text="abc"
+            android:layout_marginLeft="20dp"
+            android:textSize="15dp"
+            android:layout_marginTop="5dp"
+            android:layout_height="wrap_content">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/txtGiangViena"
+            android:layout_toRightOf="@id/imgkha"
+            android:layout_below="@id/txtMotaa"
+            android:layout_marginLeft="20dp"
+            android:textSize="12dp"
+            android:text="le pham tuan kiet"
+            android:layout_marginTop="5dp"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"></TextView>
+
+        <TextView
+            android:id="@+id/txtngbda"
+            android:layout_toRightOf="@id/txtGiangViena"
+            android:layout_below="@id/txtMotaa"
+            android:layout_marginLeft="30dp"
+            android:textSize="12dp"
+            android:text="20/09"
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"></TextView>
+
+        <TextView
+            android:id="@+id/txtnkta"
+            android:layout_toRightOf="@id/txtngbda"
+            android:layout_below="@id/txtMotaa"
+            android:layout_marginLeft="30dp"
+            android:textSize="12dp"
+            android:layout_marginTop="5dp"
+            android:text="20/09"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"></TextView>
+
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
